@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #filters {
+    margin-bottom: 20px;
+  }
+  
+  #summary,
+  #statistics,
+  #analysis,
+  #profile {
+    margin-bottom: 40px;
+  }
+  
