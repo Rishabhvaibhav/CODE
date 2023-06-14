@@ -20,12 +20,12 @@ for number in binary_numbers:
     decimal = int(decimal)
     if decimal % 5 == 0:
         divi_5.append(decimal)
-
+        
 if valid_input and divi_5:
     # result_sequence = ','.join(divi_5)
     print("Numbers divisible by 5:")
 elif valid_input:
-    print("No numbers are divisible by 5.")
+    print("There are no number id divisible by 5 in this sequence")
 else:
-    print("Invalid input. ")
+    print("Invalid Input ")
 

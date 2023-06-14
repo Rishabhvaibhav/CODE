@@ -1,27 +1,15 @@
-t = int(input("Enter the Number of test case You want to perform"))
+t = int(input())
 for i in range(t):
-    expense, income = map(int, input("Enter the Expense and Income ").split())
+    N, X = map(int, input().split())
+    X = 2 ** X
     
-    
-    
-    
-    
-    
-    
-    
-    
-    income = 2**income
-    expense = income // 2
-    saving = income - expense
-    debt = expense - income
-    
-    
-    if expense > income:
-        print(debt)
-    elif expense == income:
-        print("Balance")
-    elif expense < income:
-        print(saving)
-    else:
-        print("Invalid Input")
 
+    def saving(N , X):
+        while():
+            if N < 0 :
+                print(X / 2)
+        return saving
+    
+print(saving)
+    
+       
