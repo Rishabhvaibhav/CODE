@@ -28,4 +28,3 @@ elif valid_input:
     print("There are no number id divisible by 5 in this sequence")
 else:
     print("Invalid Input ")
-
